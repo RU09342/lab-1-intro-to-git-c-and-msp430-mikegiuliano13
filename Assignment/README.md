@@ -104,6 +104,7 @@ int main ()
   // Example syntax to use the function
   // Peforms all supported operations with numbers 10 and 5
   // Performs unsupported operation to show catchall
+ 
   math (10, 5, '+'); // returns 15
   math (10, 5, '-'); // returns 5
   math (10, 5, '*'); // returns 50
