@@ -1,10 +1,10 @@
-Lab Exercise 1: Introduction to C, Git, and the MS
+####Lab Exercise 1: Introduction to C, Git, and the MS
 
 The header file math.h specified to create a function that performs basic
 math operations that takes the form math(int, int, char). This means it takes
 in two operands and the operation symbol and returns the output value.
 
-Header File math.h
+##Header File math.h
 
 First, two preprocessors ifndef and define are used.
 "#ifndef MATH_H_" checks if named token has been defined in earlier or included file
@@ -36,7 +36,7 @@ The remaining header file follows the format below:
 
 	#endif /* MATH_H_ */
 
-Function math.c
+##Function math.c
 
 This function references its associated header and can be used in a separate programm
 by simply importing #include "math.h" and <stdio.h> for print functionality.
@@ -85,7 +85,7 @@ but prints the answer to the console in a readable format.
 		return answer;
 	}
 
-Using Math Function in Program
+##Using Math Function in Program
 
 This file shows how the function would be used in a user program. It 
 includes <stdio.h> and "math.h" to function properly.
