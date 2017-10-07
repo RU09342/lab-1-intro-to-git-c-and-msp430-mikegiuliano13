@@ -36,7 +36,7 @@ The remaining header file follows the format below:
 
 	#endif /* MATH_H_ */
 
-	Function math.c
+Function math.c
 
 This function references its associated header and can be used in a separate programm
 by simply importing #include "math.h" and <stdio.h> for print functionality.
