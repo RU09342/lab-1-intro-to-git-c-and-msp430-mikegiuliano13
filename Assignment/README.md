@@ -1,4 +1,4 @@
-### Introduction to C, Git, and the MS
+# Introduction to C, Git, and the MS
 
 The header file math.h specified to create a function that performs basic
 math operations that takes the form math(int, int, char). This means it takes
